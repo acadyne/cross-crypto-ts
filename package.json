@@ -1,0 +1,45 @@
+{
+  "name": "cross-crypto-ts",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublish": "npm run build"
+  },
+  "keywords": [
+    "encryption",
+    "cryptography",
+    "security",
+    "typescript",
+    "python",
+    "rsa",
+    "aes",
+    "hybrid-encryption",
+    "cross-platform",
+    "secure-communication",
+    "data-protection",
+    "crypto",
+    "gcm",
+    "oaep"
+  ],
+  "author": "Jose Fabian Soltero Escobar",
+  "license": "MIT",
+  "description": "Hybrid encryption library for secure communication between TypeScript and Python using AES-GCM (256-bit) and RSA-OAEP (4096-bit).",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/acadyne/cross-crypto-ts.git"
+  },
+  "bugs": {
+    "url": "https://github.com/acadyne/cross-crypto-ts/issues"
+  },
+  "homepage": "https://github.com/acadyne/cross-crypto-ts",
+  "dependencies": {
+    "node-forge": "^1.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.1",
+    "@types/node-forge": "^1.3.11",
+    "typescript": "^5.7.3"
+  }
+}
