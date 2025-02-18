@@ -1,8 +1,10 @@
 {
   "name": "cross-crypto-ts",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],  
   "scripts": {
     "build": "tsc",
     "prepublish": "npm run build"
