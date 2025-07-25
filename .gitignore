@@ -1,8 +1,24 @@
+# Carpetas de dependencias
 node_modules/
+dist/
 
+# Archivos de compilación TypeScript
 *.tsbuildinfo
 
-npm-debug.log
-yarn-debug.log
-yarn-error.log
+# Logs de errores
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Archivos de entorno
 .env
+.env.*
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+vento
